@@ -1,0 +1,17 @@
+[
+ {"name":"Hyderabad – Banjara Hills","type":"Branch","city":"Hyderabad","state":"Telangana","pin":"500034","ifsc":"BSIN0000001","micr":"500999001","hours":"Mon–Fri 10:00–16:00, Sat 10:00–14:00"},
+ {"name":"Visakhapatnam – Dwaraka Nagar","type":"Branch","city":"Visakhapatnam","state":"Andhra Pradesh","pin":"530016","ifsc":"BSIN0000002","micr":"530999002","hours":"Mon–Fri 10:00–16:00, Sat 10:00–14:00"},
+ {"name":"Vijayawada – Benz Circle","type":"Branch","city":"Vijayawada","state":"Andhra Pradesh","pin":"520010","ifsc":"BSIN0000003","micr":"520999003","hours":"Mon–Fri 10:00–16:00, Sat 10:00–14:00"},
+ {"name":"Kakinada – Main Road","type":"Branch","city":"Kakinada","state":"Andhra Pradesh","pin":"533001","ifsc":"BSIN0000004","micr":"533999004","hours":"Mon–Fri 10:00–16:00, Sat 10:00–14:00"},
+ {"name":"Pithapuram","type":"Branch","city":"Pithapuram","state":"Andhra Pradesh","pin":"533450","ifsc":"BSIN0000005","micr":"533999005","hours":"Mon–Fri 10:00–16:00, Sat 10:00–14:00"},
+ {"name":"Bengaluru – Indiranagar","type":"Branch","city":"Bengaluru","state":"Karnataka","pin":"560038","ifsc":"BSIN0000006","micr":"560999006","hours":"Mon–Fri 10:00–16:00, Sat 10:00–14:00"},
+ {"name":"Chennai – T. Nagar","type":"Branch","city":"Chennai","state":"Tamil Nadu","pin":"600017","ifsc":"BSIN0000007","micr":"600999007","hours":"Mon–Fri 10:00–16:00, Sat 10:00–14:00"},
+ {"name":"Mumbai – Nariman Point","type":"Branch","city":"Mumbai","state":"Maharashtra","pin":"400021","ifsc":"BSIN0000008","micr":"400999008","hours":"Mon–Fri 10:00–16:00, Sat 10:00–14:00"},
+ {"name":"New Delhi – Connaught Place","type":"Branch","city":"New Delhi","state":"Delhi","pin":"110001","ifsc":"BSIN0000009","micr":"110999009","hours":"Mon–Fri 10:00–16:00, Sat 10:00–14:00"},
+ {"name":"Kolkata – Park Street","type":"Branch","city":"Kolkata","state":"West Bengal","pin":"700016","ifsc":"BSIN0000010","micr":"700999010","hours":"Mon–Fri 10:00–16:00, Sat 10:00–14:00"},
+ {"name":"Hyderabad – HITEC City ATM","type":"ATM","city":"Hyderabad","state":"Telangana","pin":"500081","ifsc":"BSIN0000001","micr":"","hours":"24x7"},
+ {"name":"Visakhapatnam – RK Beach ATM","type":"ATM","city":"Visakhapatnam","state":"Andhra Pradesh","pin":"530003","ifsc":"BSIN0000002","micr":"","hours":"24x7"},
+ {"name":"Kakinada – Bhanugudi ATM","type":"ATM","city":"Kakinada","state":"Andhra Pradesh","pin":"533003","ifsc":"BSIN0000004","micr":"","hours":"24x7"},
+ {"name":"Pithapuram – Bus Stand ATM","type":"ATM","city":"Pithapuram","state":"Andhra Pradesh","pin":"533450","ifsc":"BSIN0000005","micr":"","hours":"24x7"},
+ {"name":"Pune – Koregaon Park ATM","type":"ATM","city":"Pune","state":"Maharashtra","pin":"411001","ifsc":"BSIN0000008","micr":"","hours":"24x7"}
+]
