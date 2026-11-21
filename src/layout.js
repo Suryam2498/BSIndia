@@ -3,7 +3,7 @@ import { icon } from './icons.js';
 export const SITE = {
   name: 'BSIndia Bank',
   url: process.env.SITE_URL || 'https://bsindia-bank.netlify.app',
-  tel: '1800-XXX-XXXX',
+  tel: '1800-123-1234',
   email: 'customercare@bsindia.example',
   year: new Date().getFullYear(),
 };

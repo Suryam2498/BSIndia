@@ -144,7 +144,7 @@ export const PRODUCTS = [
     docs: [...KYC, ...INCOME],
     extra: 'card-table',
     fees: [['Finance charges', 'Up to 3.49% per month (41.88% per annum) on revolving balances*'], ['Late payment fee', 'Slab-based, up to ₹1,300*'], ['Cash advance fee', '2.5% (min ₹500)*'], ['GST', '18% on all fees and finance charges']],
-    faqs: [['What is the grace period?', 'You can avoid finance charges by paying the total amount due by the due date. The interest-free period can be up to 50 days from the date of purchase.'], ['What if my card is lost?', 'Block it immediately in the app, on Net Banking or call 1800-XXX-XXXX. Report unauthorised transactions as soon as possible; see our <a href="/security-centre/">Security Centre</a>.']],
+    faqs: [['What is the grace period?', 'You can avoid finance charges by paying the total amount due by the due date. The interest-free period can be up to 50 days from the date of purchase.'], ['What if my card is lost?', 'Block it immediately in the app, on Net Banking or call 1800-123-1234. Report unauthorised transactions as soon as possible; see our <a href="/security-centre/">Security Centre</a>.']],
     related: ['debit-cards', 'personal-loan'],
   },
   {

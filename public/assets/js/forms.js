@@ -7,17 +7,19 @@ document.querySelectorAll('form[data-validate]').forEach((f) => f.addEventListen
   if (f.querySelector('[name=bot-field]')?.value) { e.preventDefault(); return; }
   if (!f.checkValidity()) { e.preventDefault(); f.reportValidity(); }
 }));
-// Demo login: front-end only. Sample credentials: test / test123. NOT real authentication.
+// Demo login: front-end only. Sample credentials below. NOT real authentication.
+const USERS = { test: { pw: 'test123', name: 'Test Customer' }, balaji: { pw: 'test123', name: 'Balaji' } };
 const demo = document.querySelector('[data-demo-login]');
 if (demo) {
   const msg = document.getElementById('lg-msg');
   demo.addEventListener('submit', (e) => {
     e.preventDefault();
     const u = document.getElementById('lg-user').value.trim(), pw = document.getElementById('lg-pass').value;
-    if (u === 'test' && pw === 'test123') {
-      try { sessionStorage.setItem('bs-demo-auth', '1'); } catch { /* ignore */ }
+    const user = USERS[u.toLowerCase()];
+    if (user && pw === user.pw) {
+      try { sessionStorage.setItem('bs-demo-auth', '1'); sessionStorage.setItem('bs-demo-name', user.name); } catch { /* ignore */ }
       location.href = '/dashboard/';
-    } else { msg.textContent = 'Invalid Customer ID or password. For this demo use test / test123.'; }
+    } else { msg.textContent = 'Invalid Customer ID or password. For this demo use test / test123 or balaji / test123.'; }
   });
   demo.querySelectorAll('[data-ct]').forEach((b) => b.addEventListener('click', () => demo.querySelectorAll('[data-ct]').forEach((x) => { const on = x === b; x.setAttribute('aria-selected', String(on)); x.setAttribute('aria-pressed', String(on)); })));
 }
